@@ -1,4 +1,4 @@
-# Contributing to Amadeco StickyCart Module
+# Contributing to Amadeco GalleryExtras Module
 
 We welcome contributions to the Amadeco GalleryExtras module! Here are some guidelines to help you contribute:
 
