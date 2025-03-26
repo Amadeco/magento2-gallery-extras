@@ -1,0 +1,28 @@
+{
+    "name": "amadeco/module-gallery-extras",
+    "description": "Extends the Fotorama Product Gallery with additional parameters. This module is developed following Adobe Commerce coding standards.",
+    "require": {
+        "php": "~8.1.0||~8.2.0||~8.3.0",
+        "magento/module-catalog": "*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "Ilan Parmentier @ Amadeco",
+            "email": "dev@amadeco.fr",
+            "homepage": "https://www.amadeco.fr",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Amadeco\\GalleryExtras\\": ""
+        }
+    }
+}
