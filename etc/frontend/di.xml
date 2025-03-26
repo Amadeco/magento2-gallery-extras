@@ -11,6 +11,6 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <type name="Magento\Catalog\Block\Product\View\GalleryOptions">
-        <plugin name="Amadeco_GalleryExtras::addExtraParamsToGallery" type="Amadeco\GalleryExtras\Plugin\ExtendGalleryOptionsJson" sortOrder="10" disabled="false"/>
+        <plugin name="Amadeco_GalleryExtras::extendGalleryOptionsJson" type="Amadeco\GalleryExtras\Plugin\ExtendGalleryOptionsJson" sortOrder="10" disabled="false"/>
     </type>
 </config>
