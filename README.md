@@ -52,10 +52,10 @@ bin/magento setup:static-content:deploy
 
 Once installed, the GalleryExtras module automatically extends the Fotorama gallery options with the following new parameters (defined in theme etc/view.xml file):
 
-    - **minwidth**: Stage container minimum width.
-    - **maxwidth**: Stage container maximum width.
-    - **minheight**: Stage container minimum height.
-    - **maxheight**: Stage container maximum height.
+**minwidth**: Stage container minimum width.
+**maxwidth**: Stage container maximum width.
+**minheight**: Stage container minimum height.
+**maxheight**: Stage container maximum height.
 
 Note: Magento’s default view.xml does not support these options. GalleryExtras elegantly fills this gap by injecting these parameters at runtime, giving you unparalleled control over your product gallery’s layout.
 
