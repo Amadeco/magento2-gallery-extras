@@ -7,7 +7,7 @@
     },
     "type": "magento2-module",
     "license": [
-        "MIT"
+        "OSL-3"
     ],
     "authors": [
         {
